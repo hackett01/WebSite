@@ -14,7 +14,6 @@
         <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="../css/Checkbox.css" rel="stylesheet" type="text/css">
         <link href="../css/newcss.css" rel="stylesheet" type="text/css">
-
         <link href="css/timeline.css" rel="stylesheet" type="text/css">
         <link href="../css/SpakeOn.css" rel="stylesheet" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -22,8 +21,14 @@
         <script src="../js/functions/iconsChange.js"></script>
         <script src="../js/functions/SpeakOn.js"></script>
         <script src="//rawgithub.com/stidges/jquery-searchable/master/dist/jquery.searchable-1.0.0.min.js"></script>
-
-
+        <script>
+            $(document).ready(function () {
+                $(".show-inf").click(function (event) {
+                    event.preventDefault();
+                    $(".datosuser").slideToggle();
+                });
+            });
+        </script>
     </head>
     <body class="wrapper">
 
@@ -300,23 +305,9 @@
                         <div class="profile-userpic">
                             <img src="http://keenthemes.com/preview/metronic/theme/assets/admin/pages/media/profile/profile_user.jpg" class="img-responsive" alt="">
                         </div>
-                        <a href="#" id="mostrar"><i class="glyphicon glyphicon-info-sign"></i></a>
-                        
-                        <div id="caja" hidden="">
-                            <div class="profile-usertitle">
-                                <a href="#" class="close">x</a>
-                                <div class="profile-usertitle-name">
-                                    Marcus Doe
-                                </div>
-                                <div class="profile-usertitle-job">
-                                    Developer
-                                </div>
-                                <div class="profile-usertitle-job">
-                                    Pais
-                                </div>
+                        <button class="show-inf">button</button>
+                        <p class="datosuser">This is a paragraph.</p>
 
-                            </div>
-                        </div>
                         <ul class="nav" id="side-menu">
 
                             <li class="sidebar-search">
