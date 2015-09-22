@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../favicon.ico">
+        <title>Navbar Template for Bootstrap</title>
+        <!-- Bootstrap core CSS -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../css/animate.min.css" rel="stylesheet" type="text/css">
+        <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="../css/Checkbox.css" rel="stylesheet" type="text/css">
+        <link href="../css/newcss.css" rel="stylesheet" type="text/css">
+
+        <link href="css/timeline.css" rel="stylesheet" type="text/css">
+        <link href="../css/SpakeOn.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="../js/functions/iconsChange.js"></script>
+        <script src="../js/functions/SpeakOn.js"></script>
+        <script src="//rawgithub.com/stidges/jquery-searchable/master/dist/jquery.searchable-1.0.0.min.js"></script>
+
+
+    </head>
+    <body class="wrapper">
+
+        <div id="wrapper">
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-default navbar-static-top" id="navBar" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">SB Admin v2.0</a>
+                </div>
+                <!-- /.navbar-header -->
+
+                <ul class="nav navbar-top-links navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="glyphicon glyphicon-envelope"></i>  <i class="glyphicon glyphicon-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-messages">
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <strong>John Smith</strong>
+                                        <span class="pull-right text-muted">
+                                            <em>Yesterday</em>
+                                        </span>
+                                    </div>
+                                    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <strong>John Smith</strong>
+                                        <span class="pull-right text-muted">
+                                            <em>Yesterday</em>
+                                        </span>
+                                    </div>
+                                    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <strong>John Smith</strong>
+                                        <span class="pull-right text-muted">
+                                            <em>Yesterday</em>
+                                        </span>
+                                    </div>
+                                    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a class="text-center" href="#">
+                                    <strong>Read All Messages</strong>
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- /.dropdown-messages -->
+                    </li>
+
+                    <!-- /.dropdown -->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="glyphicon glyphicon-bell"></i>  <i class="glyphicon glyphicon-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-alerts">
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <i class="fa fa-comment fa-fw"></i> New Comment
+                                        <span class="pull-right text-muted small" >4 minutes ago</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <i class="fa fa-twitter fa-fw"></i> 3 New Followers
+                                        <span class="pull-right text-muted small" >12 minutes ago</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <i class="fa fa-envelope fa-fw"></i> Message Sent
+                                        <span class="pull-right text-muted small" >4 minutes ago</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <i class="fa fa-tasks fa-fw"></i> New Task
+                                        <span class="pull-right text-muted small" >4 minutes ago</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <i class="fa fa-upload fa-fw"></i> Server Rebooted
+                                        <span class="pull-right text-muted small" >4 minutes ago</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a class="text-center" href="#">
+                                    <strong>See All Alerts</strong>
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- /.dropdown-alerts -->
+                    </li>
+                    <!-- /.dropdown -->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="glyphicon glyphicon-user"></i>  <i class="glyphicon glyphicon-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li>
+                                <a data-toggle="modal" data-target="#myModal" href="#">
+                                    <i class="glyphicon glyphicon-user"></i>
+                                    User Profile
+                                </a>
+                            </li>
+                            <li>
+                                <a data-toggle="modal" data-target="#sonido" href="#">
+                                    <i class="glyphicon glyphicon-bell"></i>
+                                    Sonidos y notificaciones
+                                </a>
+                            </li>
+                            <li>
+                                <a data-toggle="modal" data-target="#Chat" href="#">
+                                    <i class="glyphicon glyphicon-comment"></i>
+                                    Ajustes del Chat
+                                </a>
+
+                            </li>
+                            <li>
+                                <a data-toggle="modal" data-target="#amigos" href="#"><i class="glyphicon glyphicon-tree-deciduous"></i> Invitar Amigos</a>
+
+                            </li>
+                            <li class="divider"></li>
+                            <li><a   data-toggle="modal" data-target="#myModal" href="login.html"><i class="glyphicon glyphicon-log-in"></i> Logout</a>
+
+                            </li>
+                        </ul>
+                        <!-- /.dropdown-user -->
+                    </li>
+                    <!-- /.dropdown -->
+                </ul>
+                <!-- /.navbar-top-links -->
+
+
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                                <h3 class="modal-title" id="lineModalLabel">Privacidad y seguridad</h3>
+                            </div>
+                            <div class="modal-body">
+
+                                <!-- content goes here -->
+                                <form>
+                                    <div class="form-group" id="configUser">
+                                        <label for="exampleInputEmail1">Contactos bloqueados</label>
+                                        <a href="#" id="mostrar" class="configBloq"><i class="glyphicon glyphicon-plus-sign"></i></a>
+                                        <div id="caja" hidden="">
+                                            <div class="profile-usertitle">
+                                                <a href="#" class="close">x</a>
+                                                <div class="profile-usertitle-name">
+                                                    Marcus Doe
+                                                </div>
+                                                <div class="profile-usertitle-job">
+                                                    Developer
+                                                </div>
+                                                <div class="profile-usertitle-job">
+                                                    Pais
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Cambiar contraseña</label>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Cerrar todas las sessiones</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1">Eliminar cuenta</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="" checked>
+                                            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                            Recibir Broadcast
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="" checked>
+                                            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                            Ultima Conexion
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="" checked>
+                                            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                            Ocultar Telefono
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="" checked>
+                                            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                            Ocultar Email
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="" checked>
+                                            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                            Encontrarme por nombre de usuario
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="" checked>
+                                            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                            Encontrarme por email
+                                        </label>
+                                    </div>
+
+
+
+                                </form>
+
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- line modal -->
+
+
+
+
+                <div class="navbar-default sidebar" role="navigation">
+                    <div class="sidebar-nav navbar-collapse">
+
+                        <div class="profile-userpic">
+                            <img src="http://keenthemes.com/preview/metronic/theme/assets/admin/pages/media/profile/profile_user.jpg" class="img-responsive" alt="">
+                        </div>
+                        <a href="#" id="mostrar"><i class="glyphicon glyphicon-info-sign"></i></a>
+                      
+                        <div id="caja" hidden="">
+                            <div class="profile-usertitle">
+                                <a href="#" class="close">x</a>
+                                <div class="profile-usertitle-name">
+                                    Marcus Doe
+                                </div>
+                                <div class="profile-usertitle-job">
+                                    Developer
+                                </div>
+                                <div class="profile-usertitle-job">
+                                    Pais
+                                </div>
+
+                            </div>
+                        </div>
+                        <ul class="nav" id="side-menu">
+
+                            <li class="sidebar-search">
+
+                                <div class="input-group custom-search-form">
+
+
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">
+                                            <i class="glyphicon glyphicon-search"></i>
+                                        </button>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="Search...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">
+                                            <i class="glyphicon glyphicon-plus-sign"></i>
+                                        </button>
+                                    </span>
+
+                                </div>
+                                <!-- /input-group -->
+                            </li>
+                            <li>
+                                <a>
+                                    <span class="broadsc">
+                                        <img src="../img/iconos/secciones/broadcast_1.png" alt="broadcast_1" class="broadcast_1" />
+                                    </span>
+
+                                </a>
+                            </li>
+
+                            <li>
+
+                                <a>
+                                    <span class="broadsc">
+                                        <img src="../img/iconos/secciones/contactos.png" alt="contactos" class="contactos" />
+                                    </span>
+                                </a>
+
+
+                            </li>
+
+                            <li>
+
+                                <a>
+                                    <span class="broadsc">
+                                        <img src="../img/iconos/secciones/chat_1.png" alt="gritChat" class="gritChat" />
+                                    </span>
+                                </a>
+
+                            </li>
+
+                            <li>
+
+                                <a>
+                                    <span class="broadsc">
+                                        <img src="../img/iconos/secciones/grupos_1.png" alt="grupsChat" class="grupsChat" />
+                                    </span>
+                                </a>
+
+
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- /.sidebar-collapse -->
+                </div>
+                <!-- /.navbar-static-side -->
+            </nav>
+
+            <div id="page-wrapper">
+                <div class="row" style="background: rgb(236, 240, 241) none repeat scroll 0% 0%;">
+                    <div class="col-lg-8" style="margin-top: 20px;">
+                        <div class="chat-panel panel panel-default" >
+                            <div class="panel-heading">
+                                <button class="btn btn-default btn-xs" type="button" id="mesh">
+                                    <img src="../img/iconos/header 2/engrane.png">
+                                </button>
+                                <div class="btn-group pull-right" id="attach">
+                                    <button type="button" class="btn btn-primary"  id="attach" data-toggle="modal" data-target=".bs-example-modal-sm">
+                                        <img src="../img/iconos/header 2/clip.png">
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                                <div class="modal-dialog modal-sm">
+                                    <div class="modal-content">
+                                        <div class="modal-content">
+
+                                            <div class="modal-body">
+                                                <div class="container-fluid">
+                                                    <button type="button" class="btn btn-danger btn-circle btn-lg"><i class="glyphicon glyphicon-camera"></i></button>
+                                                    <button type="button" class="btn btn-success btn-circle btn-lg"><i class="glyphicon glyphicon-picture"></i></button>
+                                                    <button type="button" class="btn btn-warning  btn-circle btn-lg"><i class="glyphicon glyphicon-facetime-video"></i></button>
+                                                    <button style="background: rgb(89, 62, 95) none repeat scroll 0% 0%; border: medium none rgb(89, 62, 95);" type="button" class="btn btn-warning btn-circle btn-lg"><i class="glyphicon glyphicon-map-marker"></i></button>
+                                                    <button style="background: rgb(57, 49, 195) none repeat scroll 0% 0%; border: medium none rgb(57, 49, 195);" type="button" class="btn btn-danger btn-circle btn-lg"><i class="glyphicon glyphicon-music"></i></button>
+                                                    <button style="background: rgb(217, 83, 79) none repeat scroll 0% 0%;" type="button" class="btn btn-danger btn-circle btn-lg"><i class="glyphicon glyphicon-user"></i></button>
+
+                                                </div>
+                                            </div>
+                                        </div><!-- /.modal-content -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.panel-heading -->
+                            <div class="panel-body">
+                                <ul class="chat">
+                                    <li class="left clearfix">
+                                        <span class="chat-img pull-left">
+                                            <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
+                                        </span>
+                                        <div class="chat-body clearfix" id="chatsent">
+                                            <div class="header">
+                                                <strong class="primary-font">Jack Sparrow</strong>
+                                                <small class="pull-right text-muted">
+                                                    <i class="glyphicon glyphicon-dashboard"></i> 12 mins ago
+                                                </small>
+                                            </div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="right clearfix" >
+                                        <span class="chat-img pull-right">
+                                            <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
+                                        </span>
+                                        <div class="chat-body clearfix" id="received">
+                                            <div class="header">
+                                                <small class=" text-muted">
+                                                    <i class="glyphicon glyphicon-dashboard"></i> 13 mins ago</small>
+                                                <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                                            </div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="left clearfix">
+                                        <span class="chat-img pull-left">
+                                            <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
+                                        </span>
+                                        <div class="chat-body clearfix" id="chatsent">
+                                            <div class="header">
+                                                <strong class="primary-font">Jack Sparrow</strong>
+                                                <small class="pull-right text-muted">
+                                                    <i class="glyphicon glyphicon-dashboard"></i> 14 mins ago</small>
+                                            </div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="right clearfix">
+                                        <span class="chat-img pull-right">
+                                            <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
+                                        </span>
+                                        <div class="chat-body clearfix" id="received">
+                                            <div class="header">
+                                                <small class=" text-muted">
+                                                    <i class="glyphicon glyphicon-dashboard"></i> 15 mins ago</small>
+                                                <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                                            </div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.panel-body -->
+                            <div class="panel-footer">
+                                <div class="input-group">
+                                    <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-warning btn-sm" id="btn-chat">
+                                            Send
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- /.panel-footer -->
+                        </div>
+                        <!-- /.panel .chat-panel -->
+                    </div>
+                    <div class="col-lg-4" style="margin-top: 20px;">
+                        <div class="panel panel-default">
+
+                            <div class="panel-heading c-list">
+                                <span class="title">Contacts</span>
+                                <ul class="pull-right c-controls">
+                                    <li><a href="#cant-do-all-the-work-for-you" data-toggle="tooltip" data-placement="top" title="Add Contact"><i class="glyphicon glyphicon-plus"></i></a></li>
+                                    <li><a href="#" class="hide-search" data-command="toggle-search" data-toggle="tooltip" data-placement="top" title="Toggle Search"><i class="fa fa-ellipsis-v"></i></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="row" style="display: none;">
+                                <div class="col-xs-12">
+                                    <div class="input-group c-search">
+                                        <input type="text" class="form-control" id="contact-list-search">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search text-muted"></span></button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="list-group" id="contact-list">
+                                <li class="list-group-item">
+                                    <div class="col-xs-12 col-sm-3">
+                                        <img src="http://api.randomuser.me/portraits/men/49.jpg" alt="Scott Stevens" class="img-responsive img-circle" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-9">
+                                        <span class="name">Scott Stevens</span><br/>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="col-xs-12 col-sm-3">
+                                        <img src="http://api.randomuser.me/portraits/men/97.jpg" alt="Seth Frazier" class="img-responsive img-circle" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-9">
+                                        <span class="name">Seth Frazier</span><br/>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="col-xs-12 col-sm-3">
+                                        <img src="http://api.randomuser.me/portraits/women/90.jpg" alt="Jean Myers" class="img-responsive img-circle" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-9">
+                                        <span class="name">Jean Myers</span><br/>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="col-xs-12 col-sm-3">
+                                        <img src="http://api.randomuser.me/portraits/men/24.jpg" alt="Todd Shelton" class="img-responsive img-circle" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-9">
+                                        <span class="name">Todd Shelton</span><br/>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="col-xs-12 col-sm-3">
+                                        <img src="http://api.randomuser.me/portraits/women/34.jpg" alt="Rosemary Porter" class="img-responsive img-circle" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-9">
+                                        <span class="name">Rosemary Porter</span><br/>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="col-xs-12 col-sm-3">
+                                        <img src="http://api.randomuser.me/portraits/women/56.jpg" alt="Debbie Schmidt" class="img-responsive img-circle" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-9">
+                                        <span class="name">Debbie Schmidt</span><br/>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="col-xs-12 col-sm-3">
+                                        <img src="http://api.randomuser.me/portraits/women/76.jpg" alt="Glenda Patterson" class="img-responsive img-circle" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-9">
+                                        <span class="name">Glenda Patterson</span><br/>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.panel -->
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /#page-wrapper -->
+        </div>
+    </body>
+
+</html>

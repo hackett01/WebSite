@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="img/favicon.png">
+        <title>Book-Post</title>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <link href="css/timeline.css" rel="stylesheet" type="text/css">
+        <script src="js/vendor/jquery-1.11.2.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+
+
+
+
+        <style>
+            .profile-img {
+                width: 96px;
+                height: 96px;
+                margin: 0 auto 10px;
+                display: block;
+                -moz-border-radius: 50%;
+                -webkit-border-radius: 50%;
+                border-radius: 50%;
+
+
+            }
+            #registro {
+                width: 357px;
+                margin-left: 91px;
+            }
+        </style>
+
+        <script>
+
+
+            $(document).ready(function () {
+
+                $("#register").click(function () {
+                    $("#registro").show();
+                    $("#login").hide();
+
+                });
+            });
+
+
+        </script>
+
+    </head>
+    <body class="welcome-page animated fadeIn">
+        <div class="row-welcome" style="background-image: url('//104.197.72.13/wp-content/uploads/2015/09/video_background.png');">
+
+
+            <div class="row-body">
+                <div class="welcome-inner">
+                    <!-- welcome message -->
+                    <div class="welcome-message welcome-text-shadow">
+                        <div class="welcome-title">
+                            Titulo de Bienvenida
+                        </div>
+                        <div class="welcome-desc">
+                            Titulo 2
+                        </div>
+
+                    </div><!-- end welcome message-->
+                    <!-- register and login form-->
+                    <div class="welcome-inputs">
+                        <div id="login" class="panel panel-danger panel-inputs panel-home animated fadeInUp">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Login
+                                    <span class="pull-right">
+                                        <a  id="register" class="btn btn-danger btn-xs btn-panel-home">Register</a>
+                                    </span>
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <form action="" method="POST" autocomplete="off">
+                                    <input type="text" id="short" name="" placeholder="Username or email">
+                                    <input type="password" id="short" name="" placeholder="Password">
+                                    <a href="http://localhost:8383/WebSite/Temples/Speakon.html" class="btn btn-danger btn-xs btn-panel-home">Login</a>
+                                    <span class="forgot-password-link">
+                                        <a href="#">Forgot your password?</a><br>
+                                    </span>
+                                </form> 
+                            </div>
+
+                        </div>
+
+                        <div id="registro" class="panel panel-danger panel-inputs panel-home animated fadeInUp " hidden="">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    Register
+                                    <span class="pull-right">
+                                        <a href="" class="btn btn-danger btn-xs btn-panel-home">Login</a>
+
+                                    </span>
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+
+                                <div class="center-block">
+                                    <img class="profile-img"
+                                         src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=120" alt="">
+                                </div>
+                                <form action="" method="POST" autocomplete="off">
+                                    <input type="text" id="short" name="" placeholder="Username">
+                                    <input type="password" id="short" name="" placeholder="Password">
+                                    <input type="text" id="short" name="email" placeholder="Email">
+                                    <input type="text" name="Phone" placeholder="Phone">
+                                    <select name="language" class="form-control ">
+                                        <option value=""></option>
+                                        <option value="arabic">Arabic</option>
+                                        <option value="english">English</option>
+                                        <option value="french">French</option>
+                                        <option value="german">German</option>
+                                        <option value="other">Other</option>
+                                    </select>
+
+                                    <br>
+
+                                    <select name="language" class="form-control ">
+                                        <option value=""></option>
+                                        <option value="arabic">Arabic</option>
+                                        <option value="english">English</option>
+                                        <option value="french">French</option>
+                                        <option value="german">German</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <br>
+                                    <button type="button" class="btn btn-success">Éxito</button>
+                                </form> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+                        </div>
+
+
+                    </div><!-- end register and login form -->
+                </div>
+            </div>
+        </div>
+
+        <div class="welcome-full animated fadeInLeft">
+            <div class="row-body">
+                <!-- some registered users -->
+                <div class="welcome-users-inner">
+                    <div class="welcome-user">
+                        <a href="profile.html">
+                            <img src="img/guy-3.jpg" class="img-circle" />
+                        </a>
+                    </div>
+
+                    <div class="welcome-user">
+                        <a href="profile.html">
+                            <img src="img/woman-1.jpg" class="img-circle" />
+                        </a>
+                    </div>
+
+                    <div class="welcome-user">
+                        <a href="profile.html">
+                            <img src="img/guy-2.jpg" class="img-circle" />
+                        </a>
+                    </div>
+                    <div class="welcome-user">
+                        <a href="profile.html">
+                            <img src="img/guy-5.jpg" class="img-circle" />
+                        </a>
+                    </div>
+                    <div class="welcome-user">
+                        <a href="profile.html">
+                            <img src="img/woman-4.jpg" class="img-circle" />
+                        </a>
+                    </div>
+                    <div class="welcome-user">
+                        <a href="profile.html">
+                            <img src="img/guy-8.jpg" class="img-circle" />
+                        </a>
+                    </div>
+                    <div class="welcome-user">
+                        <a href="profile.html">
+                            <img src="img/guy-2.jpg" class="img-circle" />
+                        </a>
+                    </div>
+                    <div class="welcome-user">
+                        <a href="profile.html">
+                            <img src="img/guy-5.jpg" class="img-circle" />
+                        </a>
+                    </div>
+                    <div class="welcome-user">
+                        <a href="profile.html">
+                            <img src="img/woman-4.jpg" class="img-circle" />
+                        </a>
+                    </div>
+                    <div class="welcome-user">
+                        <a href="profile.html">
+                            <img src="img/guy-8.jpg" class="img-circle" />
+                        </a>
+                    </div>
+
+                </div><!-- some registered users -->
+            </div>
+        </div>
+        <footer class="welcome-footer">
+            <div class="container">
+                <p>
+                <div class="footer-links">
+                    <a href="#">Terms of Use</a> | 
+                    <a href="#">Privacy Policy</a> | 
+                    <a href="#">Developers</a> | 
+                    <a href="#">Contact</a> | 
+                    <a href="#">About</a>
+                </div>   
+                Copyright &copy; Company - All rights reserved       
+                </p>
+            </div>
+        </footer>
+
+
+
+        <script>
+            $(document).ready(function () {
+                $('#bootstrapSelectForm')
+                        .find('[name="colors"]')
+                        .selectpicker()
+                        .change(function (e) {
+                            // revalidate the color when it is changed
+                            $('#bootstrapSelectForm').formValidation('revalidateField', 'colors');
+                        })
+                        .end()
+                        .find('[name="language"]')
+                        .selectpicker()
+                        .change(function (e) {
+                            // revalidate the language when it is changed
+                            $('#bootstrapSelectForm').formValidation('revalidateField', 'language');
+                        })
+                        .end()
+                        .formValidation({
+                            framework: 'bootstrap',
+                            excluded: ':disabled',
+                            icon: {
+                                valid: 'glyphicon glyphicon-ok',
+                                invalid: 'glyphicon glyphicon-remove',
+                                validating: 'glyphicon glyphicon-refresh'
+                            },
+                            fields: {
+                                colors: {
+                                    validators: {
+                                        callback: {
+                                            message: 'Please choose 2-4 colors you like most',
+                                            callback: function (value, validator, $field) {
+                                                // Get the selected options
+                                                var options = validator.getFieldElements('colors').val();
+                                                return (options != null && options.length >= 2 && options.length <= 4);
+                                            }
+                                        }
+                                    }
+                                },
+                                language: {
+                                    validators: {
+                                        notEmpty: {
+                                            message: 'Please select your native language.'
+                                        }
+                                    }
+                                }
+                            }
+                        });
+            });
+        </script>
+    </body>
+</html>
