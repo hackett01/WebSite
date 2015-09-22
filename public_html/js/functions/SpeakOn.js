@@ -6,13 +6,13 @@
 
 
 $(function () {
-    $("#mostrar").click(function (event) {
+    $("#show").click(function (event) {
         event.preventDefault();
-        $("#caja").slideToggle();
+        $("#content").slideToggle();
     });
-    $("#caja a").click(function (event) {
+    $("#content a").click(function (event) {
         event.preventDefault();
-        $("#caja").slideUp();
+        $("#content").slideUp();
     });
 });
 
@@ -58,5 +58,4 @@ $(function () {
         }
     })
 });
-
 
