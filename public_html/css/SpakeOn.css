@@ -378,6 +378,11 @@ table.dataTable thead .sorting:after {
     border-radius: 50% !important;
 }
 
+#content{
+    width: 162px;
+}
+
+
 .profile-usertitle {
     text-align: center;
     margin-top: 20px;
@@ -548,13 +553,13 @@ table.dataTable thead .sorting:after {
 
 
 .c-search > .form-control {
-   border-radius: 0px;
-   border-width: 0px;
-   border-bottom-width: 1px;
-   font-size: 1.3em;
-   padding: 12px 12px;
-   height: 44px;
-   outline: none !important;
+    border-radius: 0px;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    font-size: 1.3em;
+    padding: 12px 12px;
+    height: 44px;
+    outline: none !important;
 }
 .c-search > .form-control:focus {
     outline:0px !important;
@@ -562,11 +567,11 @@ table.dataTable thead .sorting:after {
     box-shadow: none;
 }
 .c-search > .input-group-btn .btn {
-   border-radius: 0px;
-   border-width: 0px;
-   border-left-width: 1px;
-   border-bottom-width: 1px;
-   height: 44px;
+    border-radius: 0px;
+    border-width: 0px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    height: 44px;
 }
 
 
