@@ -29,6 +29,8 @@
                 });
             });
         </script>
+
+
     </head>
     <body class="wrapper">
 
@@ -213,7 +215,10 @@
                                 <form>
                                     <div class="form-group" id="configUser">
                                         <label for="exampleInputEmail1">Contactos bloqueados</label>
-                                        <a href="#" id="mostrar" class="configBloq"><i class="glyphicon glyphicon-plus-sign"></i></a>
+                                        <a href="#" id="mostrar" class="configBloq" style="padding: 5px;">
+                                            <i class="glyphicon glyphicon-plus-sign"></i>
+                                        </a>
+
                                         <div id="caja" hidden="">
                                             <div class="profile-usertitle">
                                                 <a href="#" class="close">x</a>
@@ -297,6 +302,71 @@
                 <!-- line modal -->
 
 
+
+                <div class="modal fade" id="Chat" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                                <h3 class="modal-title" id="lineModalLabel">Privacidad y seguridad</h3>
+                            </div>
+                            <div class="modal-body">
+
+                                <!-- content goes here -->
+                                <form>
+                                    <div class="form-group" id="configUser">
+                                        <label for="exampleInputEmail1">Fondos del chat</label>
+
+                                        <button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#fonts">
+                                            <span class="glyphicon glyphicon-star"></span> Imagen
+                                        </button>
+
+                                        <div id="fonts" class="collapse">
+
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" /></div>
+                                                    <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="http://www.virginia.org/uploadedImages/virginiaorg/Images/OrgImages/H/HamptonConventionVisitorBureau/Grandview_Nature_Preserve.jpg?width=300&height=200&scale=upscalecanvas" /></div>                
+                                                </div>
+                                                </br>
+                                                <div class="row">
+                                                    <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" /></div>
+                                                    <div class="col-md-3 col-sm-4 col-xs-6"><img class="img-responsive" src="http://www.virginia.org/uploadedImages/virginiaorg/Images/OrgImages/H/HamptonConventionVisitorBureau/Grandview_Nature_Preserve.jpg?width=300&height=200&scale=upscalecanvas" /></div>                
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="conversacion">Proteger conversacion</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="respuesta">Auto respuesta</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="burbuja">Colo de burbuja  de chat</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Fotos">Fotos y videos</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="Audios">Audios</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="mensajes">Borrar todos los mensajes</label>
+                                    </div>
+
+                                </form>
+
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- line modal -->
 
 
                 <div class="navbar-default sidebar" role="navigation">
