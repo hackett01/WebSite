@@ -26,6 +26,10 @@
             #fontChat{
                 background: url('../img/fontsChat/fondo-iphone-gotas-para-whatsapp.jpg');
             }
+
+            #textChat{
+                color: #000;
+            }
         </style>
 
         <script>
@@ -222,7 +226,7 @@
 
                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog">
-                        <div class="modal-content">
+                        <div class="modal-content" style="width: 344px;">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
                                 <h3 class="modal-title" id="lineModalLabel">Privacidad y seguridad</h3>
@@ -232,76 +236,58 @@
                                 <!-- content goes here -->
                                 <form>
                                     <div class="form-group" id="configUser">
-                                        <label for="exampleInputEmail1">Contactos bloqueados</label>
+                                        <label id="textChat" >Contactos bloqueados</label>
                                         <a href="#" id="mostrar" class="configBloq" style="padding: 5px;">
                                             <i class="glyphicon glyphicon-plus-sign"></i>
                                         </a>
 
-                                        <div id="caja" hidden="">
-                                            <div class="profile-usertitle">
-                                                <a href="#" class="close">x</a>
-                                                <div class="profile-usertitle-name">
-                                                    Marcus Doe
-                                                </div>
-                                                <div class="profile-usertitle-job">
-                                                    Developer
-                                                </div>
-                                                <div class="profile-usertitle-job">
-                                                    Pais
-                                                </div>
-
-                                            </div>
-                                        </div>
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputPassword1">Cambiar contraseña</label>
+                                        <label id="textChat" >Cambiar contraseña</label>
                                         <div class="form-group">
-                                            <label>Vieja contraseña</label>
-                                            <input type="password" name="password" class="span3">
-                                            <label>Nueva contraseña</label>
+                                            <label id="textChat">Vieja</label>
                                             <input type="password" name="password" class="span3">
                                         </div>
 
-
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputPassword1">Cerrar todas las sessiones</label>
+                                        <label id="textChat" >Cerrar todas las sessiones</label>
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputPassword1">Eliminar cuenta</label>
+                                        <label id="textChat" >Eliminar cuenta</label>
                                     </div>
                                     <div class="checkbox">
-                                        <label>
+                                        <label id="textChat">
                                             <input type="checkbox" value="" checked>
                                             Recibir Broadcast
                                         </label>
                                     </div>
                                     <div class="checkbox">
-                                        <label>
+                                        <label id="textChat">
                                             <input type="checkbox" value="" checked>
                                             Ultima Conexion
                                         </label>
                                     </div>
                                     <div class="checkbox">
-                                        <label>
+                                        <label id="textChat">
                                             <input type="checkbox" value="" checked>
                                             Ocultar Telefono
                                         </label>
                                     </div>
                                     <div class="checkbox">
-                                        <label>
+                                        <label id="textChat">
                                             <input type="checkbox" value="" checked>
                                             Ocultar Email
                                         </label>
                                     </div>
-                                    <div class="checkbox">
-                                        <label>
+                                    <div class="checkbox" >
+                                        <label id="textChat">
                                             <input type="checkbox" value="" checked>
                                             Encontrarme por nombre de usuario
                                         </label>
                                     </div>
-                                    <div class="checkbox">
-                                        <label>
+                                    <div class="checkbox" >
+                                        <label id="textChat">
                                             <input type="checkbox" value="" checked>
                                             Encontrarme por email
                                         </label>
@@ -332,61 +318,88 @@
                                 <h3 class="modal-title" id="lineModalLabel">Privacidad y seguridad</h3>
                             </div>
                             <div class="modal-body">
+                                <h3>Ajustes Generales</h3>
+                                <div class="form-group" id="configUser">
+                                    <label for="exampleInputEmail1">Fondos del chat</label>
 
-                                <!-- content goes here -->
-                                <form>
-                                    <div class="form-group" id="configUser">
-                                        <label for="exampleInputEmail1">Fondos del chat</label>
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#fonts">
+                                        <span class="glyphicon glyphicon-th"></span>
+                                    </button>
 
-                                        <button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#fonts">
-                                            <span class="glyphicon glyphicon-star"></span>
-                                        </button>
+                                    <div id="fonts" class="collapse">
 
-                                        <div id="fonts" class="collapse">
-
-                                            <div class="container">
-                                                <div class="row">
-                                                    <div id="font1" class="col-md-3 col-sm-4 col-xs-6">
-                                                        <img class="img-responsive" src="http://www.virginia.org/uploadedImages/virginiaorg/Images/OrgImages/H/HamptonConventionVisitorBureau/Grandview_Nature_Preserve.jpg?width=300&height=200&scale=upscalecanvas" />
-                                                    </div>
-                                                    <div id="font2" class="col-md-3 col-sm-4 col-xs-6">
-                                                        <img class="img-responsive" src="http://www.virginia.org/uploadedImages/virginiaorg/Images/OrgImages/H/HamptonConventionVisitorBureau/Grandview_Nature_Preserve.jpg?width=300&height=200&scale=upscalecanvas" />
-                                                    </div>                
+                                        <div class="container">
+                                            <div class="row">
+                                                <div id="font1" class="col-md-3 col-sm-4 col-xs-6">
+                                                    <img class="img-responsive" src="http://www.virginia.org/uploadedImages/virginiaorg/Images/OrgImages/H/HamptonConventionVisitorBureau/Grandview_Nature_Preserve.jpg?width=300&height=200&scale=upscalecanvas" />
                                                 </div>
-                                                </br>
-                                                <div class="row">
-                                                    <div id="font3" class="col-md-3 col-sm-4 col-xs-6">
-                                                        <img class="img-responsive" src="http://2.bp.blogspot.com/-H6MAoWN-UIE/TuRwLbHRSWI/AAAAAAAABBk/89iiEulVsyg/s400/Free%2BNature%2BPhoto.jpg" />
-                                                    </div>
-                                                    <div id="font4" class="col-md-3 col-sm-4 col-xs-6">
-                                                        <img class="img-responsive" src="http://www.virginia.org/uploadedImages/virginiaorg/Images/OrgImages/H/HamptonConventionVisitorBureau/Grandview_Nature_Preserve.jpg?width=300&height=200&scale=upscalecanvas" />
-                                                    </div>                
-                                                </div>
+                                                <div id="font2" class="col-md-3 col-sm-4 col-xs-6">
+                                                    <img class="img-responsive" src="http://www.virginia.org/uploadedImages/virginiaorg/Images/OrgImages/H/HamptonConventionVisitorBureau/Grandview_Nature_Preserve.jpg?width=300&height=200&scale=upscalecanvas" />
+                                                </div>                
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="conversacion">Proteger conversacion</label>
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#conversation">
+                                        <span class="glyphicon glyphicon-user"></span>
+                                    </button>
+                                    <div id="conversation" class="collapse">
+                                        <form role="form">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">codigo</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="conversacion">Auto respuesta</label>
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#resp">
+                                        <span class="glyphicon glyphicon-comment"></span>
+                                    </button>
+                                    <div id="resp" class="collapse">
+                                        <form role="form">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">codigo</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="conversacion">Color de burbujas de chat</label>
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="collapse" data-target="#burbu">
+                                        <span class="glyphicon glyphicon-th"></span>
+                                    </button>
+                                    <div id="burbu" class="collapse">
+                                        <p>hola</p>
+
+                                    </div>
+                                </div>
+                                <h3>Descargas Automatica</h3>
+                                <div class="checkbox">
+                                    <label id="textChat">
+                                        <input type="checkbox" value="" checked>
+                                       Fotos y videos
+                                    </label>
+                                </div>
+                                <div class="checkbox">
+                                    <label id="textChat">
+                                        <input type="checkbox" value="" checked>
+                                       Audios
+                                    </label>
+                                </div>
+                                 <h3>Mensajes</h3>
+                                 <button type="button" class="btn btn-danger btn-sm">Borrar todos los mensajes</button>
+                                 
 
 
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="conversacion">Proteger conversacion</label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="respuesta">Auto respuesta</label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="burbuja">Colo de burbuja  de chat</label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="Fotos">Fotos y videos</label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="Audios">Audios</label>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="mensajes">Borrar todos los mensajes</label>
-                                    </div>
 
-                                </form>
 
                             </div>
                             <div class="modal-footer">
@@ -601,10 +614,9 @@
                                 <span class="title">Contacts</span>
                                 <ul class="pull-right c-controls">
                                     <li><a href="#cant-do-all-the-work-for-you" data-toggle="tooltip" data-placement="top" title="Add Contact"><i class="glyphicon glyphicon-plus"></i></a></li>
-                                    <li><a href="#" class="hide-search" data-command="toggle-search" data-toggle="tooltip" data-placement="top" title="Toggle Search"><i class="fa fa-ellipsis-v"></i></a></li>
+                                    <li><a href="#" class="hide-search" data-command="toggle-search" data-toggle="tooltip" data-placement="top" title="Toggle Search"><i class="glyphicon glyphicon-user"></i></a></li>
                                 </ul>
                             </div>
-
                             <div class="row" style="display: none;">
                                 <div class="col-xs-12">
                                     <div class="input-group c-search">
