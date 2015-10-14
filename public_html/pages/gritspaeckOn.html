@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../favicon.ico">
+        <title></title>
+        <!-- Bootstrap core CSS  -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../font-awesome-4.4.0 3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="../css/SpakeOn.css" rel="stylesheet" type="text/css">
+        <link href="../css/card.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="../emoji-picker/css/jquery.emojipicker.css">
+        <link rel="stylesheet" type="text/css" href="../emoji-picker/css/jquery.emojipicker.a.css">
+        <link href="../css/rotating-card.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+        <link href='../css/cardsPefil.css' rel='stylesheet' />
+        <link href='../slider/css/slider.css' rel='stylesheet' />
+        <!-- Bootstrap core CSS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="../js/listContacs.js"></script>
+        <script type="text/javascript" src="../emoji-picker/js/jquery.emojipicker.js"></script>
+        <script type="text/javascript" src="../emoji-picker/js/jquery.emojipicker.a.js"></script>
+        <script type="text/javascript" src="../js/overbuttons.js"></script>
+        <script type="text/javascript" src="../slider/js/bootstrap-slider.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+
+
+
+        <script>
+            if (top.location != location) {
+                top.location.href = document.location.href;
+            }
+            $(function () {
+                window.prettyPrint && prettyPrint();
+
+                $('#sliderinput,#sl1').slider({
+                    formater: function (value) {
+                        return 'Current value: ' + value;
+                    }
+                });
+            });
+        </script>
+
+
+        <script type="text/javascript">
+
+
+        </script>
+
+
+
+
+
+
+    <body style=" background-color: #1A415E; " >
+
+
+        <div id="superiorHeder" style=" background-color: rgb(21, 48, 70);
+             position: absolute;
+             top: 0px;
+             left: 0px;
+             width: 100%;
+             height: 147px; "></div>
+
+
+        <div id="siders"  class="navbar-default sidebar" role="navigation" >
+            <div class="col-lg-12 col-sm-12">
+
+
+                <div class="card hovercard" id="cardsuperios1" >
+
+                    <div id="bottonSuperios" >
+                        <div id="idtextCenter" class="btn-group" >
+                            <a  class="btn btn-default dropdown-toggle"
+                                data-toggle="dropdown">
+                                <span class="fa fa-angle-down"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu" id="xplodmenu">
+                                <li id="perfil"><a>Profile</a></li>
+                                <li  id="hell"><a>Help</a></li>
+                                <li id="close"><a>Close session</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="card-background">
+                        <h3  id="header">
+                        </h3>
+                    </div>
+
+
+                    <div class="useravatar">
+                        <img data-toggle="modal" data-target="#mycard" alt="" src="../img/rotating_card_profile.png">
+                        <span   class="card-title">Pamela Anderson</span>
+                    </div>
+
+
+
+                </div>
+                <div class="banerbuttons" style="background-color: white;">
+
+                    <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
+                        <div class="btn-group" role="group">
+                            <a  id="brocast" title="Brocast"   class="btn btn-default" href="#tab1" data-toggle="tab">
+                                <img id="imgcontacperfil" class="button" src="../img/iconosweb-09_converted.png"> 
+                            </a>
+
+                        </div>
+                        <div class="btn-group" role="group">
+                            <a id="contactos" title="Contactos" class="btn btn-default" href="#tab2" data-toggle="tab">
+                                <img id="imgcontacperfil" class="button2" src="../img/iconosweb/iconosweb-08.png">
+                            </a>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <a  id="chat" title="chat" class="btn btn-default" href="#tab3" data-toggle="tab">
+                                <img id="imgcontacperfil" class="button3"  src="../img/iconosweb/iconosweb-07.png">
+                            </a>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <a  id="grupos" title="Grupos" class="btn btn-default" href="#tab4" data-toggle="tab">
+                                <img id="imgcontacperfil" class="button4"  src="../img/iconosweb/iconosweb-05.png">
+                            </a>
+                        </div>
+                        <div class="btn-group" role="group">
+                            <a  id="grupos" title="nose" class="btn btn-default" href="#tab5" data-toggle="tab">
+                                <img id="imgcontacperfil" class="button5"  src="../img/iconosweb/iconosweb-06.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="well" >
+                    <div class="tab-content" id="chat-conten" >
+                        <div class="tab-pane fade in" id="tab1">
+
+
+
+                            <button id="button-brocast" type="button" class="btn btn-primary">Destacado</button>
+                        </div>
+
+
+                        <div  class="tab-pane fade in active" id="tab2">
+
+
+                            <div  id="wrap">
+
+
+                                <ul id="list-contas" >
+
+                                    <li id="list-conten">
+
+                                        <img id="img-contac"  data-toggle="modal" data-target="#infoContacto"   class="img-circle" alt="" src="../img/rotating_card_profile.png">  
+
+                                        <a hrf="#" id="name" class="Fransico" >
+                                            Francisco
+                                            <hr id="lineas-div">
+                                        </a>
+
+                                    </li>
+                                    <li id="list-conten">
+                                        <a class="info-contac" href="#" data-toggle="modal" data-target="#infoContacto"></a>
+                                        <img id="img-contac"  class="img-circle" alt="" src="../img/People/p2.jpg">
+                                        <a id="name" >
+                                            Juan
+                                            <hr id="lineas-div">
+                                        </a>
+
+                                    </li>
+                                    <li id="list-conten">
+                                        <img id="img-contac"  class="img-circle" alt="" src="../img/People/p3.jpg">
+                                        <a id="name" >
+                                            Roberto
+                                            <hr id="lineas-div">
+                                        </a>
+
+                                    </li>
+                                    <li id="list-conten">
+                                        <img id="img-contac"  class="img-circle" alt="" src="../img/People/p4.jpg">
+                                        <a id="name" >
+                                            Antonio
+                                            <hr id="lineas-div">
+                                        </a>
+
+
+                                    </li>
+                                    <li id="list-conten">
+                                        <img id="img-contac"  class="img-circle" alt="" src="../img/People/p5.jpg">
+                                        <a id="name" >
+                                            Zugei
+                                            <hr id="lineas-div">
+                                        </a>
+
+
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade in" id="tab3">
+                            <div  id="wrap">
+
+                                <ul id="list-chat" >
+
+                                    <li id="list-conten">
+                                        <img id="img-contac"  class="img-circle" alt="" src="../img/People/p1.jpg">
+                                        <a id="name" >
+                                            Francisco
+                                        </a>
+                                        <p  id="time-text">8:00 am </p>
+                                        <div id="circulo-notifi" >
+                                            <p id="text-notifi">13</p>
+                                        </div>
+                                        <p id="mns-text" >Ya es tarde mañana te llamo</p>
+                                        <hr id="lineas-div">
+                                    </li>
+                                    <li id="list-conten">
+                                        <img id="img-contac"  class="img-circle" alt="" src="../img/People/p5.jpg">
+                                        <a id="name" >
+                                            Juan
+                                        </a>
+                                        <p  id="time-text">8:00 am </p>
+                                        <div id="circulo-notifi" >
+                                            <p id="text-notifi">13</p>
+                                        </div>
+                                        <p id="mns-text">hola como estas </p>
+                                        <hr id="lineas-div">
+
+                                    </li>
+                                    <li id="list-conten">
+                                        <img id="img-contac"  class="img-circle" alt="" src="../img/People/p2.jpg">
+
+                                        <a id="name" >
+                                            Gloria
+                                        </a>
+                                        <p  id="time-text">8:00 am </p>
+                                        <div id="circulo-notifi" >
+                                            <p id="text-notifi">13</p>
+                                        </div>
+                                        <p id="mns-text">hola como estas </p>
+                                        <hr id="lineas-div">
+
+                                    </li>
+                                    <li id="list-conten">
+                                        <img id="img-contac"  class="img-circle" alt="" src="../img/People/p3.jpg">
+
+                                        <a id="name" >
+                                            Jimena
+                                        </a>
+                                        <p  id="time-text">8:00 am </p>
+                                        <div id="circulo-notifi" >
+                                            <p id="text-notifi">13</p>
+                                        </div>
+                                        <p id="mns-text">hola como estas </p>
+                                        <hr id="lineas-div">
+
+                                    </li>
+                                    <li id="list-conten">
+                                        <img id="img-contac"  class="img-circle" alt="" src="../img/People/p8.jpg">
+
+                                        <a id="name" >
+                                            Anto
+                                        </a>
+                                        <p  id="time-text">8:00 am </p>
+                                        <div id="circulo-notifi" >
+                                            <p id="text-notifi">13</p>
+                                        </div>
+                                        <p id="mns-text">hola como estas </p>
+                                        <hr id="lineas-div">
+
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade in" id="tab4">
+
+                            <div  id="wrap">
+
+                                <ul id="list-chat" >
+
+                                    <li id="list-conten">
+
+                                        <img data-toggle="modal" data-target="#infogrupo" id="img-contac"  class="img-circle" alt="" src="../img/People/p1.jpg">
+
+                                        <a id="name" >
+                                            Familia
+                                        </a>
+                                        <p  id="time-text">8:00 am </p>
+                                        <div id="circulo-notifi" >
+                                            <p id="text-notifi">13</p>
+                                        </div>
+                                        <p id="mns-text" >Ya es tarde mañana te llamo</p>
+                                        <hr id="lineas-div">
+                                    </li>
+                                    <li id="list-conten">
+                                        <img id="img-contac"  class="img-circle" alt="" src="../img/People/p5.jpg">
+
+                                        <a id="name" >
+                                            Trabajo
+                                        </a>
+                                        <p  id="time-text">8:00 am </p>
+                                        <div id="circulo-notifi" >
+                                            <p id="text-notifi">13</p>
+                                        </div>
+                                        <p id="mns-text">hola como estas </p>
+                                        <hr id="lineas-div">
+
+                                    </li>
+                                    <li id="list-conten">
+                                        <img id="img-contac"  class="img-circle" alt="" src="../img/People/p2.jpg">
+
+                                        <a id="name" >
+                                            Desmadre
+                                        </a>
+                                        <p  id="time-text">8:00 am </p>
+                                        <div id="circulo-notifi" >
+                                            <p id="text-notifi">13</p>
+                                        </div>
+                                        <p id="mns-text">hola como estas </p>
+                                        <hr id="lineas-div">
+
+                                    </li>
+                                    <li id="list-conten">
+                                        <img id="img-contac"  class="img-circle" alt="" src="../img/People/p3.jpg">
+
+                                        <a id="name" >
+                                            Amigos
+                                        </a>
+                                        <p  id="time-text">8:00 am </p>
+                                        <div id="circulo-notifi" >
+                                            <p id="text-notifi">13</p>
+                                        </div>
+                                        <p id="mns-text">hola como estas </p>
+                                        <hr id="lineas-div">
+
+                                    </li>
+                                    <li id="list-conten">
+                                        <img id="img-contac"  class="img-circle" alt="" src="../img/People/p8.jpg">
+
+                                        <a id="name" >
+                                            Escuela
+                                        </a>
+                                        <p  id="time-text">8:00 am </p>
+                                        <div id="circulo-notifi" >
+                                            <p id="text-notifi">13</p>
+                                        </div>
+                                        <p id="mns-text">hola como estas </p>
+                                        <hr id="lineas-div">
+
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="tab-pane fade in" id="tab5">
+                            <h1>...?</h1>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+
+        <div id="chats" class="col-lg-8">
+
+            <div class="panel panel-default"  id="chatpanel" >
+                <div id="chatheading" class="panel-heading">
+                    <img id="img-contac" class="img-circle" alt="" src="../img/rotating_card_profile.png">
+                    <div style="position: absolute;
+                         margin-top: -41px;
+                         margin-left: 45px;">
+                        <p style="position: absolute;
+                           margin-top: 13px;">Zugei Montero Huerta</p>
+                        <p style=" margin-top: 30px;
+                           color: rgb(159, 160, 157);">Last seen today 09:00 am</p>
+                    </div>
+                    <button class="btn btn-default pull-right" data-toggle="modal" data-target="#myModal"><i class="fa fa-paperclip"></i> <br></button>
+                    <div class="clearfix"></div>
+
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-body" id="contend-chat" style="overflow: scroll; ">
+
+
+
+                        <div id="chat1"> hola como estas </div>
+
+                        <div id="chat2">bien </div>
+
+                        <div id="chat1">yo bien aqui descanzando y tu </div>
+
+                        <div id="chat2">en mi casa </div>
+
+                        <div id="chat1">Vas a ir a la  fiesta esta noche </div>
+
+                        <div id="chat2">Nose </div>
+
+                        <div id="chat1">vamos estara buena</div>
+
+                        <div id="chat2">esta bien si a que hora te veo</div>
+
+                        <div id="chat1"> a las 9:30 pm</div>
+
+                        <div id="chat2">Me parece bien a esa hora</div>
+                    </div>
+
+
+
+
+
+                    <div id="footer-chat" class="panel-footer">
+
+
+
+                        <div class="field">
+                            <input style="width: 730px; margin-left: 39px;" type="text" id="input-default" class=" form-control emojiable-option" >
+                            <a style="margin-top: -24px;" href="#" data-toggle="modal" data-target=".bs-example-modal-sm" class="btn btn-default btn-xs">
+                              <img id="imgcontacperfil" class="button6"  src="../img/iconos-03.png">
+                            </a>
+                            <a style="margin-top: -24px;" href="#" data-toggle="modal" data-target=".bs-example-modal-sm" class="btn btn-default btn-xs">
+                              <img id="imgcontacperfil" class="button7"  src="../img/iconos-05.png">
+                            </a>
+                        </div>
+
+                        <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                            <div class="modal-dialog modal-sm">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title">Delete messages with time</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input type="text" class="form-control" value="5" id="sl1"  >
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-sm" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-sm btn-primary">Save changes</button>
+                                    </div>
+                                </div><!-- /.modal-content -->
+
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+                <!-- /#page-wrapper -->
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog modal-sm" id="tools" >
+                        <div class="modal-content">
+
+                            <div class="modal-body" id="toolsmodal" >
+                                <div class="form-group">
+                                    <button id="filesbutton" type="button" class="btn btn-danger btn-circle btn-lg">
+                                        <i class="fa fa-file-text"></i>
+                                    </button>
+                                    <span id="textfile" >
+                                        Files
+                                    </span>
+                                    <button id="gallerybutton" type="button" class="btn btn-success btn-circle btn-lg" >
+                                        <i class="fa fa-image"></i>
+                                    </button>
+                                    <span id="textGallery">
+                                        Gallery
+                                    </span>
+                                    <button id="videobutton" type="button" class="btn btn-warning btn-circle btn-lg">
+                                        <i class="fa fa-video-camera"></i>
+                                    </button>
+                                    <span id="textvideo">
+                                        Video
+                                    </span>
+                                </div>
+                                <br>
+                                <div  class="form-group">
+                                    <button id="buttonloca" type="button" class="btn btn-info btn-circle btn-lg">
+                                        <i class="glyphicon glyphicon-map-marker">
+
+                                        </i></button>
+                                    <span id="textlocal">
+                                        Location 
+                                    </span>
+                                    <button id="buttonaudio" type="button" class="btn btn-warning btn-circle btn-lg" >
+                                        <i class="fa fa-microphone"></i>
+                                    </button>
+                                    <span id="textaudio">
+                                        Audio 
+                                    </span>
+                                    <button id="buttoncontac" type="button" class="btn btn-danger btn-circle btn-lg" >
+                                        <i class="fa fa-user"></i>
+                                    </button>
+                                    <span id="textcontact" >
+                                        Contact 
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="mycard" role="dialog">
+
+                    <div class="modal-dialog modal-sm">
+
+                        <div class="card-container manual-flip">
+                            <div class="card">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="../img/rotating_card_thumb3.png"/>
+                                    </div>
+                                    <div class="user">
+                                        <img class="img-circle" src="../img/rotating_card_profile.png"/>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <h3 class="name">Andrew Mike</h3>
+                                            <h5 class="position"><i class="fa fa-map-marker fa-fw text-muted"></i> Bucharest, Romania</h5>
+                                            <h5 class="Phone"><i class="fa fa-phone fa-fw text-muted"></i> 51 + 553552559 </h5>
+                                            <h5 class="mail"><i class="fa fa-envelope-o fa-fw text-muted"></i> mike@creative-tim.com</h5>
+                                        </div>
+
+                                    </div>
+                                </div> <!-- end front panel -->
+
+                            </div> <!-- end card -->
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal fade" id="infoContacto" role="dialog">
+                    <div class="modal-dialog modal-sm">
+
+                        <div class="card-container manual-flip">
+                            <div class="card">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="../img/rotating_card_thumb3.png"/>
+                                    </div>
+                                    <div class="user">
+                                        <img class="img-circle" src="../img/rotating_card_profile.png"/>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <h3 class="name">Andrew Mike</h3>
+
+                                            <h5><i class="fa fa-map-marker fa-fw text-muted"></i> Bucharest, Romania</h5>
+                                            <h5><i class="fa fa-mobile fa-fw text-muted"></i> 51 + 553552559 </h5>
+                                            <h5><i class="fa fa-envelope-o fa-fw text-muted"></i> mike@creative-tim.com</h5>
+                                        </div>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-mail-forward"></i>Options
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div> <!-- end front panel -->
+                                <div class="back">
+                                    <div class="header">
+                                        <h5 class="motto">Options</h5>
+                                    </div> 
+                                    <div class="content">
+                                        <div class="main">
+                                            <div class="form-group">
+                                                <button id="filesbutton" type="button" class="btn btn-danger btn-circle btn-lg" >
+                                                    <i class="fa fa-file-text"></i>
+                                                </button>
+                                                <span id="textmesenger">
+                                                    Messenger
+                                                </span>
+                                                <button id="gallerybutton" type="button" class="btn btn-success btn-circle btn-lg" >
+                                                    <i class="fa fa-star-o"></i>
+                                                </button>
+                                                <span id="textfavorites">
+                                                    Favorites
+                                                </span>
+                                                <button type="button" class="btn btn-warning btn-circle btn-lg">
+                                                    <i class="fa fa-expeditedssl"></i>
+                                                </button>
+                                                <span id="textprotec">
+                                                    Protected chat
+                                                </span>
+                                            </div>
+                                            <br>
+                                            <div class="form-group">
+                                                <button type="button" class="btn btn-info btn-circle btn-lg" style="background-color: rgb(124, 73, 155); border: medium none rgb(124, 73, 155); margin-right: 37px">
+                                                    <i class="fa fa-ban">
+
+                                                    </i></button>
+                                                <span id="textblock">
+                                                    Block 
+                                                </span>
+                                                <a type="button" class="btn btn-warning btn-circle btn-lg" style="background-color: rgb(84, 104, 175); border: medium none rgb(84, 104, 175); margin-right: 43px;">
+                                                     <img id="clear"  src="../img/iconos-04.png"> 
+                                                </a>
+                                                <span id="textclear">
+                                                    Clear
+                                                </span>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer">
+                                        <a class="btn btn-simple" rel="tooltip" title="Flip Card" onclick="rotateCard(this)">
+                                            <i class="fa fa-reply"></i> Back
+                                        </a>
+                                        <div class="social-links text-center">
+                                            <a href="http://cretive-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                            <a href="http://cretive-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                            <a href="http://cretive-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                        </div>
+                                    </div>
+                                </div> <!-- end back panel -->
+                            </div> <!-- end card -->
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class="modal fade" id="infogrupo" role="dialog">
+                    <div class="modal-dialog modal-sm">
+                        <div class="card-container manual-flip">
+                            <div class="card">
+                                <div class="front">
+                                    <div class="cover">
+                                        <img src="../img/rotating_card_thumb3.png"/>
+                                    </div>
+                                    <div class="user">
+                                        <img class="img-circle" src="../img/índice.jpg"/>
+                                    </div>
+                                    <div class="content">
+                                        <div class="main">
+                                            <h3 class="name">Familia</h3>
+                                            <p class="profession">Miembros</p>
+
+                                            <div style=" overflow: scroll;height: 90px; ">
+                                                <h5>
+                                                    <img style="width: 40px; " class="img-circle" src="../img/índice.jpg"/>
+                                                    Bucharest, Romania
+                                                </h5>
+                                                <h5>
+                                                    <img style="width: 40px; " class="img-circle" src="../img/índice.jpg"/>
+                                                    Bucharest, Romania
+                                                </h5>
+                                                <h5>
+                                                    <img style="width: 40px; " class="img-circle" src="../img/índice.jpg"/>
+                                                    Bucharest, Romania
+                                                </h5>
+                                                <h5>
+                                                    <img style="width: 40px; " class="img-circle" src="../img/índice.jpg"/>
+                                                    Bucharest, Romania
+                                                </h5>
+                                                <h5>
+                                                    <img style="width: 40px; " class="img-circle" src="../img/índice.jpg"/>
+                                                    Bucharest, Romania
+                                                </h5>
+                                                <h5>
+                                                    <img style="width: 40px; " class="img-circle" src="../img/índice.jpg"/>
+                                                    Bucharest, Romania
+                                                </h5>
+                                                <h5>
+                                                    <img style="width: 40px; " class="img-circle" src="../img/índice.jpg"/>
+                                                    Bucharest, Romania
+                                                </h5>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="footer">
+                                            <button class="btn btn-simple" onclick="rotateCard(this)">
+                                                <i class="fa fa-mail-forward"></i>Options
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div> <!-- end front panel -->
+                                <div class="back">
+                                    <div class="header">
+                                        <h5 class="motto">Options</h5>
+                                    </div> 
+                                    <div class="content">
+                                        <div class="main">
+                                            <div class="form-group">
+                                                <button type="button" class="btn btn-danger btn-circle btn-lg"  id="filesbutton">
+                                                    <i class="fa fa-image"></i>
+                                                </button>
+                                                <span id="textmedia">
+                                                    All Media
+                                                </span>
+                                                <button type="button" class="btn btn-success btn-circle btn-lg" id="gallerybutton">
+                                                    <i class="fa fa-users"></i>
+                                                </button>
+                                                <span id="textpart">
+                                                    Add Participants
+                                                </span>
+                                                <button  type="button" class="btn btn-warning btn-circle btn-lg">
+                                                    <i class="fa fa-expeditedssl"></i>
+                                                </button>
+                                                <span id="textprogrup">
+                                                    Protect Group
+                                                </span>
+                                            </div>
+                                            <br>
+                                            <div class="form-group">
+                                                <button type="button" class="btn btn-info btn-circle btn-lg" style="background-color: rgb(124, 73, 155); border: medium none rgb(124, 73, 155); margin-right: 37px">
+                                                    <i class="glyphicon glyphicon-map-marker">
+
+                                                    </i></button>
+                                                <span id="textoblock">
+                                                    Block 
+                                                </span>
+                                                <button type="button" class="btn btn-warning btn-circle btn-lg" style="background-color: rgb(84, 104, 175); border: medium none rgb(84, 104, 175); margin-right: 43px;">
+                                                    <img id="clear"  src="../img/iconos-04.png"> 
+                                                </button>
+                                                <span id="textclear">
+                                                    Clear 
+                                                </span>
+                                                <button type="button" class="btn btn-danger btn-circle btn-lg" style="background-color: rgb(219, 66, 96); border: medium none rgb(219, 66, 96);">
+                                                    <i class="fa fa-user"></i>
+                                                </button>
+                                                <span id="textfavorites">
+                                                    Favorites 
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer">
+                                        <a class="btn btn-simple" rel="tooltip" title="Flip Card" onclick="rotateCard(this)">
+                                            <i class="fa fa-reply"></i> Back
+                                        </a>
+                                        <div class="social-links text-center">
+                                            <a href="http://cretive-tim.com" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
+                                            <a href="http://cretive-tim.com" class="google"><i class="fa fa-google-plus fa-fw"></i></a>
+                                            <a href="http://cretive-tim.com" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
+                                        </div>
+                                    </div>
+                                </div> <!-- end back panel -->
+                            </div> <!-- end card -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

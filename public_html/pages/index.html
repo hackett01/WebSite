@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="img/favicon.png">
+        <title>Speakon - Chat</title>
+        <!-- Bootstrap core CSS -->
+        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../css/animate.min.css" rel="stylesheet" type="text/css">
+        <link href="../font-awesome-4.4.0 3" rel="stylesheet" type="text/css">
+        <link href="../font-awesome-4.4.0 3/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+
+        <script src="../js/vendor/jquery-1.11.2.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+
+
+        <style>
+
+            .welcome-message {
+                float: left;
+                width: 50%;
+                color: #fff;
+                font-weight: bold;
+            }
+
+            #title{
+                padding-top: 198px;
+                margin-left: 408px;
+                color: white;
+            }
+
+
+
+
+            .wrapper {	
+                padding-left: 105px;
+                margin-top: 200px;
+                margin-bottom: 85px;
+                width: 520px;
+            }
+
+            .form-signin {
+                max-width: 400px;
+                padding: 15px 35px 45px;
+                margin: 0 auto;
+                background-color: #fff;
+                border: 1px solid rgba(0,0,0,0.1);  
+            }
+            .contenido{
+                width: 630px;
+                text-align: justify;
+                padding-top: 11px;
+                padding-left: 92px;
+                position: absolute;
+                margin-left: 135px;
+                color: white;
+            }
+
+            #mail{
+                width: 333px;
+                color: white;
+                background-color: rgba(121, 107, 107, 0.5);
+                border: 1px solid rgb(121, 107, 107);
+            }
+
+            #Password{
+                color: white;
+                background-color: rgba(121, 107, 107, 0.5);
+                border: 1px solid rgb(121, 107, 107);
+            }
+
+            #button-login{
+                width: 97px;
+            }
+            #button-face{
+                width: 333px;
+            }
+            #face-fonte{
+                padding-top: 35px 
+            }
+            #login-form{
+
+                background-color: rgba(0, 0, 0, 0.5);
+                border-radius: 15px 15px 15px 15px;
+            }
+            #forgot-pasword{
+                padding-top: 30px;
+                padding-left: 103px;
+            }
+            #pass{
+                color: white;
+            }
+
+
+        </style>
+
+
+
+
+    </head>
+    <body style="background-image: url('../img/background.png');" class="welcome-page animated fadeIn">
+
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-md-6 col-sm-6">
+
+                <div class="container ">
+                    <h1 id="title">Welcome to SpeakOn</h1>
+
+                    <p class="contenido">SpeakOn is an improvement on current messaging apps and a revolutionary way 
+                        to connect with people around the World. We are eliminating language barriers
+                        and allowing users to communicate their emotions better by allowing them to use
+                        their native language. Supporting 60+ languages with instant and robust
+                        translation in addition to our innovative login options, group conversations,
+                        secured messaging op tions, automatic messaging, photo and video sharing and a lot more.
+                        Our team has developed an app that will revolutionize messaging as we know it now.</p>
+
+                </div>
+
+            </div>
+            <div class="col-md-4">
+
+                <div class="wrapper">
+                    <form class="form-signin" id="login-form">      
+
+                        <div class="form-group" id="mail">
+                            <input type="email" class="form-control" id="mail" placeholder="Email/Phone">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-8">
+                                <input type="password" class="form-control" id="Password" placeholder="Password">
+                            </div>
+
+                            <div class="col-md-4">
+                                <button  id="button-login" type="button" class="btn btn-danger">Login</button>
+                            </div>
+                        </div>
+                        <div class="form-group" id="face-fonte" >
+                            <a  href="#" class="btn btn-primary" role="button" id="button-face">
+                                <span class="fa fa-facebook fa-2x"> </span>
+                                Connect with Facebook
+                            </a>
+                        </div>
+
+                        <div class="form-group" id="forgot-pasword" >
+                            <a   href="#"  id="pass" >
+                                Forgot your password?
+                            </a>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+</html>
