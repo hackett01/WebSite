@@ -1,0 +1,278 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-oct-2015, 12-oct-2015 10:54:37
+    Author     : mario
+*/
+
+#chat1{
+    text-align: center;
+    height: 50px;
+    height: auto ! important;
+    word-wrap: break-word; 
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #555;
+    background-color: #EEE;
+    position: relative;
+    margin-top:  30px;
+    margin-right: 100px;
+    background-color: rgba(112, 155, 171, 0.5);
+    float: right;
+
+}
+
+#chat1:before{
+
+    content: "";
+    width: 0;
+    position: absolute;
+    border-style: solid;
+    border-width: 5px 0 5px 10px;
+    border-color: transparent #709BAB;
+    top: 5px;
+    right: -10px;
+
+}
+
+
+#chat2{
+
+    height: 50px;
+    text-align: center;
+    height: auto ! important;
+    word-wrap: break-word;
+    margin-top: 30px;
+    padding: 7px;
+    margin-top: 23px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #555;
+    background-color: #EEE;
+    position: relative;
+    margin-left: 100px;
+    background-color: rgba(109, 235, 249, 0.5);
+    float: left;
+}
+
+#chat2:before{
+
+    content: "";
+    width: 0;
+    position: absolute;
+    border-style: solid;
+    border-width: 5px 10px 5px 0;
+    border-color: transparent #B1D4D8;
+    top: 20px;
+    left: -10px;
+
+}
+
+.card .card-image {
+    position: relative;
+}
+.card .card-image img {
+    display: block;
+    border-radius: 2px 2px 0px 0px;
+    position: relative;
+    left: -30px;
+    right: 0px;
+    top: -29px;
+    bottom: 0px;
+    width: 400px;
+}
+
+.card .card-image .card-title {
+    position: absolute;
+    bottom: 32px;
+    left: 6px;
+    padding: 15px;
+    background-color: rgba(65, 65, 68, 0.5);
+    height: 44px;
+    width: 364px;
+}
+.card{
+    background-color: rgb(209, 208, 209);
+}
+#lineas-title1{
+    margin-top: 9px;
+    margin-bottom: 7px;
+}
+
+.info-contac{
+    margin-left: 189px;
+    position: absolute;
+    margin-top: -32px;
+
+}
+#siders{
+    padding-top: 11px;
+}
+
+#grupo-circle{
+    margin-left: 0px;
+    border-radius: 150px;
+    width: 50px;
+    height: 50px;
+    margin-top: -2px;
+}
+#cardInf{
+    width: 400px;
+}
+#bottonSuperios{
+    background-color: rgb(238, 238, 238);
+    margin-top: 15px;
+    width: 253px;
+    margin-top: auto;
+    margin-left: -30px;
+    height: 63px;
+}
+#xplodmenu{
+    width: 235px;
+    margin-left: -5px;
+}
+#newGropu , #perfil , #hell , #close  {
+    height: 35px;
+    border: 0;
+}
+
+#tools{
+    width: 287px; margin-top: 200px;
+}
+#toolsmodal{
+    background: #F0F0EE;
+}
+#filesbutton{
+    margin-right: 37px;
+}
+#gallerybutton{
+    margin-right: 43px;
+}
+#buttonloca{
+    background-color: rgb(124, 73, 155); border: medium none rgb(124, 73, 155); margin-right: 37px
+}
+#buttonaudio{
+    background-color: rgb(84, 104, 175); border: medium none rgb(84, 104, 175); margin-right: 43px;
+}
+#buttoncontac{
+    background-color: rgb(219, 66, 96); border: medium none rgb(219, 66, 96);
+}
+#textfile{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -76px;
+    text-align: center;
+    font-size: x-small;
+}
+#textGallery{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -86px;
+    text-align: center;
+    font-size: x-small
+}
+#textvideo{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -38px;
+    text-align: center;
+    font-size: x-small
+}
+#textlocal{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -83px;
+    text-align: center;
+    font-size: x-small
+}
+#textaudio{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -83px;
+    text-align: center;
+    font-size: x-small
+}
+#textcontact{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -40px;
+    text-align: center;
+    font-size: x-small
+}
+#textmesenger{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -89px;
+    text-align: center;
+    font-size: x-small;
+}
+#textfavorites{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -92px;
+    text-align: center;
+    font-size: x-small
+}
+#textprotec{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -56px;
+    text-align: center;
+    font-size: x-small
+}
+#textblock{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -80px;
+    text-align: center;
+    font-size: x-small
+}
+#textclear{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -79px;
+    text-align: center;
+    font-size: x-small
+}
+#chats{
+    margin-left: 300px;
+    position: absolute;
+}
+#textmedia{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -87px;
+    text-align: center;
+    font-size: x-small;
+}
+#textpart{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -106px;
+    text-align: center;
+    font-size: x-small
+}
+#textprogrup{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -55px;
+    text-align: center;
+    font-size: x-small
+}
+#textoblock{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -77px;
+    text-align: center;
+    font-size: x-small
+}
+
+#textfavorites{
+   position: absolute;
+margin-top: 55px;
+margin-left: -91px;
+text-align: center;
+font-size: x-small;
+}

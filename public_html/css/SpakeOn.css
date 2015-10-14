@@ -19,25 +19,16 @@ and open the template in the editor.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
-    background-color: #f8f8f8;
-}
 
-#wrapper {
-    width: 100%;
-}
 
-#page-wrapper {
-    padding: 0 15px;
-    min-height: 568px;
-    background-color: #fff;
-}
+
+
 
 @media(min-width:768px) {
     #page-wrapper {
         position: inherit;
         margin: 0 0 0 250px;
-        padding: 0 30px;
+        padding: 0 0px;
         border-left: 1px solid #e7e7e7;
     }
 }
@@ -146,7 +137,7 @@ body {
     .sidebar {
         z-index: 1;
         position: absolute;
-        width: 250px;
+        width: 267px;
         margin-top: 51px;
     }
 
@@ -622,3 +613,260 @@ ul.c-controls li a:hover {
     font-size: 1.25em;
 }
 
+
+
+#list-conten{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border: rgba(255, 255, 255, 0.5);
+}
+#shearch{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 208px;
+    margin-left: -23px;
+}
+#brocast,#contactos,#chat,#grupos{
+    border: rgba(203, 201, 195, 0.5);
+    background-color: rgba(203, 201, 195);
+}
+#img-contac{
+    width: 27px;
+}
+#name{
+    padding-left: 17px;
+    color: #636363;
+}
+#divisor{
+    width: 155px;
+    padding-top: 0px;
+    margin-left: 45px;
+    height: 1px;
+}
+#img-contac{
+    width: 40px;
+    height: 40px;
+}
+#list, #list-contas ,#list-chat{
+    font-family: sans-serif; 
+    margin: -2px;
+    padding: 0px 0px 0px; 
+}
+
+
+.well{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 304px; 
+    overflow: scroll;
+}
+#chat-conten{
+    width: 233px;
+    margin-left:-18px; 
+    margin-top: -18px;
+}
+#chats{
+    margin-top: 31px;
+    margin-left: -12px;
+}
+#chatpanel{
+    height: 548px;
+    background-color: rgba(203, 201, 195, 0.5);
+}
+#lineas-div{
+    margin-top: 10px;
+    margin-bottom: -6px;
+    width: 155px;
+    margin-left: 47px;
+    color: #C4C4C4;
+    background-color:#C4C4C4;
+    height: 1px;
+}
+#circulo-notifi{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #FF5E51 none repeat scroll 0% 0%;
+    margin-left: 197px;
+    margin-top: -6px;
+}
+#text-notifi{
+    color: #FFF;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 0px;
+}
+#mns-text{
+    font-size: 9px;
+    margin-top: -4px;
+    margin-left: 60px;
+    word-wrap: break-word;
+}
+#time-text{
+    text-align: center;
+    font-size: 11px;
+    margin-top: -34px;
+    margin-left: 173px;
+}
+#button-brocast{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 250px;
+    width: 200px;
+}
+#footer-chat{
+    width: 880px;
+    margin-top: -2px;
+    background-color: #EEEEEE;
+    height: 54px;
+    margin-left: -2px;
+}
+#contend-chat{
+    background-color:#E4DCD9;
+    height: 432px;
+}
+#chatheading{
+    background-color: #EEEEEE;
+}
+
+.emojiPicker{
+    top: 253px;
+    left: 316px;
+    background-color: white;
+
+}
+
+#chat1{
+    text-align: center;
+    height: 50px;
+    height: auto ! important;
+    word-wrap: break-word; 
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #555;
+    background-color: #EEE;
+    position: relative;
+    margin-top:  30px;
+    margin-left: 300px;
+    background-color: rgba(122, 155, 171, 0.5);
+    float: right;
+
+}
+
+#chat1:before{
+
+    content: "";
+    width: 0;
+    position: absolute;
+    border-style: solid;
+    border-width: 5px 0 5px 10px;
+    border-color: transparent #709BAB;
+    top: 20px;
+    right: -10px;
+
+}
+
+
+#chat2{
+
+    height: 50px;
+    text-align: center;
+    height: auto ! important;
+    word-wrap: break-word;
+    margin-top: 30px;
+    padding: 15px;
+    margin-top: 23px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #555;
+    background-color: #EEE;
+    position: relative;
+    margin-left: 30px;
+    background-color: rgba(177, 212, 216, 0.5);
+    float: left;
+}
+
+#chat2:before{
+
+    content: "";
+    width: 0;
+    position: absolute;
+    border-style: solid;
+    border-width: 5px 10px 5px 0;
+    border-color: transparent #B1D4D8;
+    top: 20px;
+    left: -10px;
+
+}
+
+.card .card-image {
+    position: relative;
+}
+.card .card-image img {
+    display: block;
+    border-radius: 2px 2px 0px 0px;
+    position: relative;
+    left: -30px;
+    right: 0px;
+    top: -29px;
+    bottom: 0px;
+    width: 400px;
+}
+
+.card .card-image .card-title {
+    position: absolute;
+    bottom: 32px;
+    left: 6px;
+    padding: 15px;
+    background-color: rgba(65, 65, 68, 0.5);
+    height: 44px;
+    width: 364px;
+}
+.card{
+    background-color: rgb(209, 208, 209);
+}
+#lineas-title1{
+    margin-top: 9px;
+    margin-bottom: 7px;
+}
+
+.info-contac{
+    margin-left: 189px;
+    position: absolute;
+    margin-top: -32px;
+
+}
+#siders{
+    padding-top: 11px;
+}
+
+#grupo-circle{
+    margin-left: 0px;
+    border-radius: 150px;
+    width: 50px;
+    height: 50px;
+    margin-top: -2px;
+}
+#cardInf{
+    width: 400px;
+}
+
+#siders{
+                position: absolute;
+                margin-top: -2px;
+                margin-left: 62px; 
+            }
+            #cardsuperios1{
+                background-color: rgba(255, 255, 255, 0.5); 
+            }
+            #idtextCenter{
+                margin: 19px 19px 19px -186px; 
+                text-align: center;  
+            }
+
+            #imgcontacperfil{
+                width: 17px;
+            }
+            #clear{
+                margin-left: -8px;
+width: 30px;
+height: 30px;
+            }
