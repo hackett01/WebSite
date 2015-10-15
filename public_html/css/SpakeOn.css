@@ -656,8 +656,9 @@ ul.c-controls li a:hover {
 
 .well{
     background-color: rgba(255, 255, 255, 0.5);
-    height: 304px; 
+    height: 302px; 
     overflow: scroll;
+    border-radius: 1px 1px 1px 0px;
 }
 #chat-conten{
     width: 233px;
@@ -671,6 +672,7 @@ ul.c-controls li a:hover {
 #chatpanel{
     height: 548px;
     background-color: rgba(203, 201, 195, 0.5);
+    border-radius: 1px 1px 1px 0px;
 }
 #lineas-div{
     margin-top: 10px;
@@ -714,23 +716,26 @@ ul.c-controls li a:hover {
     width: 200px;
 }
 #footer-chat{
-    width: 876px;
-    margin-top: -2px;
-    background-color: #EEEEEE;
-    height: 54px;
-    margin-left: -2px;
+    margin-top: 0px;
+    background-color: #EEE;
+    height: 48px;
+    margin-left: 0px;
+    border: 0px none;
 }
 #contend-chat{
-    background-color:#E4DCD9;
-    height: 432px;
+    background-color: #C8C6C5;
+    height: 437px;
+    margin-top: -1px;
+    margin-left: -2px;
 }
 #chatheading{
     background-color: #EEEEEE;
+    border-radius: 1px 1px 1px 0px;
 }
 
 .emojiPicker{
     top: 253px;
-    left: 316px;
+    left: 384px;
     background-color: white;
 
 }
@@ -850,23 +855,24 @@ ul.c-controls li a:hover {
 }
 
 #siders{
-                position: absolute;
-                margin-top: -2px;
-                margin-left: 62px; 
-            }
-            #cardsuperios1{
-                background-color: rgba(255, 255, 255, 0.5); 
-            }
-            #idtextCenter{
-                margin: 19px 19px 19px -186px; 
-                text-align: center;  
-            }
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 62px; 
+}
+#cardsuperios1{
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 1px 1px 1px 0px;
+}
+#idtextCenter{
+    margin: 19px 19px 19px -186px; 
+    text-align: center;  
+}
 
-            #imgcontacperfil{
-                width: 17px;
-            }
-            #clear{
-                margin-left: -8px;
-width: 30px;
-height: 30px;
-            }
+#imgcontacperfil{
+    width: 17px;
+}
+#clear{
+    margin-left: -8px;
+    width: 30px;
+    height: 30px;
+}

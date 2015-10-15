@@ -58,7 +58,7 @@
 
 
 
-    <body style=" background-color: #1A415E; " >
+    <body style=" background-color: #1A415E; width:90%;margin:auto;min-width:600px;max-width:2000px; " >
 
 
         <div id="superiorHeder" style=" background-color: rgb(21, 48, 70);
@@ -431,18 +431,19 @@
 
 
                     <div id="footer-chat" class="panel-footer">
-
-
-
-                        <div class="field">
-                            <input style="width: 730px; margin-left: 39px;" type="text" id="input-default" class=" form-control emojiable-option" >
+                        <input style="width: 640px; margin-left: 39px;" type="text" id="input-default" class=" form-control input-sm emojiable-option" >
+                        <div id="buttons" style="position: absolute;
+                             margin-left: 82%;
+                             margin-top: -24px;">
                             <a style="margin-top: -24px;" href="#" data-toggle="modal" data-target=".bs-example-modal-sm" class="btn btn-default btn-xs">
-                              <img id="imgcontacperfil" class="button6"  src="../img/iconos-03.png">
+                                <img id="imgcontacperfil" class="button6"  src="../img/iconos-03.png">
                             </a>
                             <a style="margin-top: -24px;" href="#" data-toggle="modal" data-target=".bs-example-modal-sm" class="btn btn-default btn-xs">
-                              <img id="imgcontacperfil" class="button7"  src="../img/iconos-05.png">
+                                <img id="imgcontacperfil" class="button7"  src="../img/iconos-05.png">
                             </a>
                         </div>
+
+
 
                         <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
                             <div class="modal-dialog modal-sm">
@@ -618,7 +619,7 @@
                                                     Block 
                                                 </span>
                                                 <a type="button" class="btn btn-warning btn-circle btn-lg" style="background-color: rgb(84, 104, 175); border: medium none rgb(84, 104, 175); margin-right: 43px;">
-                                                     <img id="clear"  src="../img/iconos-04.png"> 
+                                                    <img id="clear"  src="../img/iconos-04.png"> 
                                                 </a>
                                                 <span id="textclear">
                                                     Clear

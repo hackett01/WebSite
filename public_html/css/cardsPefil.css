@@ -19,7 +19,7 @@ and open the template in the editor.
     background-color: #EEE;
     position: relative;
     margin-top:  30px;
-    margin-right: 100px;
+    margin-right: 20px;
     background-color: rgba(112, 155, 171, 0.5);
     float: right;
 
@@ -35,6 +35,7 @@ and open the template in the editor.
     border-color: transparent #709BAB;
     top: 5px;
     right: -10px;
+    border-radius: 6px 1px 3px -1px;
 
 }
 
@@ -47,12 +48,12 @@ and open the template in the editor.
     word-wrap: break-word;
     margin-top: 30px;
     padding: 7px;
-    margin-top: 23px;
+    margin-top: 0px;
     border-radius: 5px;
     box-shadow: 0 2px 5px #555;
     background-color: #EEE;
     position: relative;
-    margin-left: 100px;
+    margin-left: 20px;
     background-color: rgba(109, 235, 249, 0.5);
     float: left;
 }
@@ -270,9 +271,9 @@ and open the template in the editor.
 }
 
 #textfavorites{
-   position: absolute;
-margin-top: 55px;
-margin-left: -91px;
-text-align: center;
-font-size: x-small;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -91px;
+    text-align: center;
+    font-size: x-small;
 }

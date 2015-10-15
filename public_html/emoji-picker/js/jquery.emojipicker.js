@@ -2,7 +2,7 @@
 
   var pluginName = "emojiPicker",
       defaults = {
-        width: '879',
+        width: '300',
         height: '279',
         position: 'right',
         fadeTime: 100,
@@ -108,7 +108,7 @@
 
       // Tab size based on width
       if (this.settings.width < 900) {
-        this.$picker.find('.emoji').css({'width':'1em', 'height':'1em'});
+        this.$picker.find('.emoji').css({'width':'2em', 'height':'2em'});
       }
 
     },
@@ -303,7 +303,7 @@
       '" data-tab="' +
       categories[i].name +
       '"><div class="emoji emoji-' +
-      categories[i].symbol +
+      categories[i].symbol + 
       '"></div></div>');
     }
     nodes.push('</nav>');
