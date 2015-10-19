@@ -649,7 +649,7 @@ ul.c-controls li a:hover {
 }
 #list, #list-contas ,#list-chat{
     font-family: sans-serif; 
-    margin: -2px;
+    margin: 0px;
     padding: 0px 0px 0px; 
 }
 
@@ -670,7 +670,7 @@ ul.c-controls li a:hover {
     margin-left: -12px;
 }
 #chatpanel{
-    height: 548px;
+    height: 547px;
     background-color: rgba(203, 201, 195, 0.5);
     border-radius: 1px 1px 1px 0px;
 }
@@ -723,7 +723,7 @@ ul.c-controls li a:hover {
     border: 0px none;
 }
 #contend-chat{
-    background-color: #C8C6C5;
+    background-color: #C0C0C0;
     height: 437px;
     margin-top: -1px;
     margin-left: -2px;
@@ -875,4 +875,92 @@ ul.c-controls li a:hover {
     margin-left: -8px;
     width: 30px;
     height: 30px;
+}
+
+div.bubble i.overlay
+{
+    display:none;
+}
+
+div.bubble:hover i.overlay
+{
+    display:block;   
+}
+.banerbuttons{
+    background-color: white;
+}
+#scrollchat{
+    overflow: scroll;height: 90px; 
+}
+#imgProfile{
+    width: 40px;
+}
+#butonsGrup{
+    margin-left: 45px;
+}
+#datesprofile{
+    position: absolute;
+    margin-top: -52px; 
+    margin-left: 45px;
+}
+#profileNamePerson{
+    position: absolute;
+    margin-top: 13px;
+}
+#Lineconection{
+    margin-top: 30px;
+    color: rgb(159, 160, 157);
+}
+#ububbleft{
+    float: left;
+    margin-left: -20px;
+    margin-top: 0px;
+}
+#ububblerigth{
+    float: right;
+    margin-right:  -20px;
+    margin-top: 0px;
+}
+#linkProfile{
+    border: 0px none;
+    background-color: rgb(238, 238, 238);
+}
+#perfileimgPersones
+{ border: 0px none;
+  background-color: rgb(238, 238, 238);
+}
+#buttonmap{
+    background-color: rgb(124, 73, 155); 
+    border: medium none rgb(124, 73, 155); 
+    margin-right: 37px
+}
+#buttonblock{
+    background-color: rgb(84, 104, 175); 
+    border: medium none rgb(84, 104, 175); 
+    margin-right: 43px;
+}
+#buttonban{
+    background-color: rgb(124, 73, 155); 
+    border: medium none rgb(124, 73, 155);
+    margin-right: 37px
+}
+#buttonUser{
+    background-color: rgb(219, 66, 96); 
+    border: medium none rgb(219, 66, 96);
+}
+#buttoncleaner{
+    background-color: rgb(84, 104, 175); 
+    border: medium none rgb(84, 104, 175); 
+    margin-right: 43px;
+}
+#contend-chat{
+    overflow: scroll; 
+}
+#superiorHeder{
+    background-color: rgb(21, 48, 70);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 147px; 
 }

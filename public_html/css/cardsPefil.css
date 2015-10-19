@@ -54,7 +54,7 @@ and open the template in the editor.
     background-color: #EEE;
     position: relative;
     margin-left: 20px;
-    background-color: rgba(109, 235, 249, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     float: left;
 }
 
@@ -68,6 +68,8 @@ and open the template in the editor.
     border-color: transparent #B1D4D8;
     top: 20px;
     left: -10px;
+ 
+
 
 }
 
@@ -128,7 +130,7 @@ and open the template in the editor.
     width: 253px;
     margin-top: auto;
     margin-left: -30px;
-    height: 63px;
+    height: 62px;
 }
 #xplodmenu{
     width: 235px;

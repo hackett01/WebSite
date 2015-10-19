@@ -8,7 +8,10 @@
 
     function listFilter(header, list) {
         var form = $("<form>").attr({"class": "filterform", "action": "#"}),
-                input = $("<input>").attr({"class": "form-control ", "id": "shearch", "type": "text"});
+                input = $("<input>").attr({"class":"form-control input-sm ", 
+                                           "id": "shearch", 
+                                           "type": "text",
+                                           "placeholder":"New search"});
 
         $(form).append(input).appendTo(header);
 
