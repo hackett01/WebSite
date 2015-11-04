@@ -6,20 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="">
-        <link rel="icon" href="../../favicon.ico">
         <title></title>
-        <!-- Bootstrap core CSS  -->
         <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="../font-awesome-4.4.0 3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="../css/SpakeOn.css" rel="stylesheet" type="text/css">
-        <link href="../css/card.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" type="text/css" href="../emoji-picker/css/jquery.emojipicker.css">
         <link rel="stylesheet" type="text/css" href="../emoji-picker/css/jquery.emojipicker.a.css">
         <link href="../css/rotating-card.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
-        <link href='../css/cardsPefil.css' rel='stylesheet' />
         <link href='../slider/css/slider.css' rel='stylesheet' />
-        <!-- Bootstrap core CSS -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="../js/listContacs.js"></script>
@@ -27,12 +20,19 @@
         <script type="text/javascript" src="../emoji-picker/js/jquery.emojipicker.a.js"></script>
         <script type="text/javascript" src="../js/overbuttons.js"></script>
         <script type="text/javascript" src="../slider/js/bootstrap-slider.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+        <script>
+            $(document).ready(function () {
+                if ((screen.width >= 1020) && (screen.height >= 1080)) {
+                    $('.well').height('500px');
+                    $('#chatpanel').height('795px');
+                    $('#contend-chat').height('656px');
+                    $('.emojiPicker').css({'top': '500px'});
+                }
 
 
-
-
-
+            });
+        </script>
         <script>
             if (top.location != location) {
                 top.location.href = document.location.href;
@@ -48,13 +48,13 @@
             });
         </script>
 
-    
 
 
 
 
 
-    <body style=" background-color: #1A415E; width:90%;margin:auto;min-width:600px;max-width:2000px; " >
+
+    <body style=" background-color: #1A415E; width:90%;margin:auto;min-width:600px;max-width:2000px " >
 
 
 
@@ -64,7 +64,7 @@
 
 
         <div id="siders"  class="navbar-default sidebar" role="navigation" >
-            <div class="col-lg-12 col-sm-12">
+            <div class="col-lg-12 ">
 
 
                 <div class="card hovercard" id="cardsuperios1" >
@@ -102,28 +102,28 @@
 
                     <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
                         <div class="btn-group" role="group">
-                            <a  id="brocast" title="Brocast"   class="btn btn-default" href="#tab1" data-toggle="tab">
+                            <a  id="brocast" title="Brocast"   class="btn btn-default  btn-lg" href="#tab1" data-toggle="tab">
                                 <img id="imgcontacperfil" class="button" src="../img/iconosweb-09_converted.png"> 
                             </a>
 
                         </div>
                         <div class="btn-group" role="group">
-                            <a id="contactos" title="Contactos" class="btn btn-default" href="#tab2" data-toggle="tab">
+                            <a id="contactos" title="Contactos" class="btn btn-default  btn-lg" href="#tab2" data-toggle="tab">
                                 <img id="imgcontacperfil" class="button2" src="../img/iconosweb/iconosweb-08.png">
                             </a>
                         </div>
                         <div class="btn-group" role="group">
-                            <a  id="chat" title="chat" class="btn btn-default" href="#tab3" data-toggle="tab">
+                            <a  id="chat" title="chat" class="btn btn-default  btn-lg" href="#tab3" data-toggle="tab">
                                 <img id="imgcontacperfil" class="button3"  src="../img/iconosweb/iconosweb-07.png">
                             </a>
                         </div>
                         <div class="btn-group" role="group">
-                            <a  id="grupos" title="Grupos" class="btn btn-default" href="#tab4" data-toggle="tab">
+                            <a  id="grupos" title="Grupos" class="btn btn-default  btn-lg" href="#tab4" data-toggle="tab">
                                 <img id="imgcontacperfil" class="button4"  src="../img/iconosweb/iconosweb-05.png">
                             </a>
                         </div>
                         <div class="btn-group" role="group">
-                            <a  id="grupos" title="nose" class="btn btn-default" href="#tab5" data-toggle="tab">
+                            <a  id="grupos" title="nose" class="btn btn-default  btn-lg" href="#tab5" data-toggle="tab">
                                 <img id="imgcontacperfil" class="button5"  src="../img/iconosweb/iconosweb-06.png">
                             </a>
                         </div>
@@ -131,7 +131,7 @@
                 </div>
 
 
-                <div class="well" >
+                <div class="well" id="bordesWEll" >
                     <div class="tab-content" id="chat-conten" >
                         <div class="tab-pane fade in" id="tab1">
 
@@ -385,66 +385,41 @@
 
                 </div>
 
-                <div class="panel panel-default">
+                <div class="panel panel-default" id="panelborder">
                     <div class="panel-body" id="contend-chat">
 
 
-
-                        <div class="container">
-
-
-                            <div class="bubble">
-                                Blue text bubble
-                                <i id="ububbleft"    class="overlay fa fa-angle-down" ></i> 
+                        <div class="commentArea">
+                            <div class="bubbledRight">
+                                Hola
+                            </div>
+                            <div class="bubbledLeft">
+                                Hola 
                             </div>
 
-                            <div class="bubble bubble--alt">
-                                Green text bubble
-                                <i id="ububblerigth"  class="overlay fa fa-angle-down" ></i>
+                            <div class="bubbledLeft">
+                                como estas  amiga 
+                            </div>
+                            <div class="bubbledRight">
+                                yo muy bien  dime  como te a ido en la  escuela de medicina escuche  que ingresaste a la facultad de mediciana 
+                            </div>
+                            <div class="bubbledLeft">
+                                Si entre a la escuela de medicina y me a ido muy bien hasta el momento con muchas tareas 
+                            </div>
+                            <div class="bubbledRight">
+                                genial felicidades 
+                            </div>
+                            <div class="bubbledLeft">
+                                Si y tu cuentame como  te a ido
+                            </div>
+                            <div class="bubbledRight">
+                                Bien
+                            </div>
+                            <div class="bubbledLeft">
+                                escuche que estabas en planes de casarte 
                             </div>
 
-                            <div class="bubble">
-                                A bubble containing lots and lots and lots and lots of content on multiple lines
-                                <i id="ububbleft"   class="overlay fa fa-angle-down" ></i> 
-                            </div>
-
-                            <div class="bubble bubble--alt">
-                                Bubble with image
-                                <img src="http://placekitten.com/800/600" alt="" />
-                                <i id="ububblerigth"  class="overlay fa fa-angle-down" ></i>
-                            </div>
-
-                            <div class="bubble">
-                                Bubblewitharidiculouslylongwordwhichwrapseffortlesslyontotwolines
-                                <i id="ububbleft"   class="overlay fa fa-angle-down" ></i>
-                            </div>
-                            <div class="bubble">
-                                Blue text bubble
-                                <i id="ububbleft"    class="overlay fa fa-angle-down" ></i> 
-                            </div>
-
-                            <div class="bubble bubble--alt">
-                                Green text bubble
-                                <i id="ububblerigth"  class="overlay fa fa-angle-down" ></i>
-                            </div>
-
-                            <div class="bubble">
-                                A bubble containing lots and lots and lots and lots of content on multiple lines
-                                <i id="ububbleft"   class="overlay fa fa-angle-down" ></i> 
-                            </div>
-
-                            <div class="bubble bubble--alt">
-                                Bubble with image
-                                <img src="http://placekitten.com/800/600" alt="" />
-                                <i id="ububblerigth"  class="overlay fa fa-angle-down" ></i>
-                            </div>
-
-                            <div class="bubble">
-                                Bubblewitharidiculouslylongwordwhichwrapseffortlesslyontotwolines
-                                <i id="ububbleft"   class="overlay fa fa-angle-down" ></i>
-                            </div>
-
-                        </div>
+                        </div>    
                     </div>
                     <div id="footer-chat" class="panel-footer">
                         <div class="col-lg-6">
